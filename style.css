@@ -1,0 +1,188 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+
+}
+
+.title {
+    position: absolute;
+    font-family: 'Red hot Mono', monospace;
+    font-size: 140px;
+    padding: 10px;
+    margin: 10px;
+    left: 300px;
+    top: 300px;
+}
+
+.container {
+   
+}
+
+.nav img{
+    position: fixed;
+    z-index: 207;
+    margin: 10px;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 210;
+}
+
+.nav li{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 15px;
+    padding: 10px;
+    margin: 20px;
+    float: right;
+    font-family: 'Red hot Mono', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.nav li:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.jump2 {
+    position: absolute;
+    left: 1100px;
+    top: 200px;
+}
+
+.jump {
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    height: 300px;
+}
+
+.freestyle {
+    position: absolute;
+    left: 1300px;
+    top: 500px;
+    z-index: 2;
+}
+
+.sls {
+    position: absolute;
+    top: 100px;
+    left: -50px;
+    z-index: 100;
+}
+
+.images {
+    position: absolute;
+    left: 200px;
+    top: -50px;
+}
+
+.nyjah {
+    position: absolute;
+    z-index: 110;
+    top: 230px;
+    left: 420px;
+}
+
+.erik {
+    position: absolute;
+    top: 550px;
+    left: 580px;
+}
+
+.sktoutline {
+    position: absolute;
+    top: 1515px;
+    left: 400px;
+    z-index: 194;
+}
+
+.boards {    
+    display: inline-block;
+}
+
+.boardsss {
+    z-index: 195;
+}
+
+.board {
+    position: absolute;
+    top: 1000px;
+    float: middle;
+    background-color: black;
+    padding: 84.5px;
+    z-index: 190;
+}
+
+.boardt {
+    position: absolute;
+    top: 1850px;
+    float: middle;
+    background-color: black;
+    padding: 84.5px;
+}
+
+.boardimages th{
+    padding-left: 28px;
+}
+
+.name td{
+    color: white;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 28px;
+    text-align: center;
+    font-family:  'Red hot Mono', monospace;
+}
+
+.buynow {
+    background-color: orange;
+    color: black;
+    border: none;
+    font-size: 16px;
+    font-family: 'Red hot Mono', monospace;
+    padding: 10px;
+}
+
+.buynow:hover {
+    cursor: pointer;
+    font-size: 18px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    top: 2735px;
+    z-index: 250;
+    display: inline-block;
+    padding: 52.5px;
+    background-color: orange;
+    width: 94.5%;
+}
+
+.footer th{
+    padding-left: 180px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footh td{
+    padding-left: 180px;
+    padding-top: 20px;
+    font-family: 'Red hot Mono', monospace;
+}
+
+.footh {
+    position: relative;
+    left: 160px;
+}
